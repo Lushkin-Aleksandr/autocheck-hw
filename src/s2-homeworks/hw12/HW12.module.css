@@ -1,16 +1,22 @@
 [data-theme='1'] {
     --color: #000000;
     --background: #FFFFFF;
+    --border-color: #D9D9D9;
+    --select-border-color: #323232;
 }
 
 [data-theme='2'] {
     --color: #000000;
     --background: #DDEEFF;
+    --border-color: #A4D1FF;
+    --select-border-color: #323232;
 }
 
 [data-theme='3'] {
     --color: #FFFFFF;
     --background: #212A34;
+    --border-color: #384655;
+    --select-border-color: #C2C2C2;
 }
 
 html {

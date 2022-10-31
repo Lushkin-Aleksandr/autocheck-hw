@@ -1,13 +1,44 @@
-.select {
+.selectWrapper {
     margin-right: 125px;
-    min-width: 165px;
-    padding: 2px 5px;
-    border-color: #C2C2C2;
+    max-width: 165px;
+    position: relative;
 }
+
+.chevron {
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    width: 24px;
+    height: 24px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.chevron path {
+    fill: var(--color);
+}
+
+
+
+.select {
+
+    min-width: 165px;
+    padding: 10px 25px 10px 10px;
+    border: 1px solid var(--select-border-color);
+    border-radius: 2px;
+    font-size: 14px;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    color: var(--color);
+    background-color: var(--background);
+}
+
 
 .select:focus {
     outline: none;
 }
 
-.option:hover {
+.option {
+
 }
