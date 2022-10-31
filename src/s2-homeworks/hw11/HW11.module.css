@@ -2,7 +2,15 @@
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
 }
 
 .number {
+    min-width: 25px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
 }
