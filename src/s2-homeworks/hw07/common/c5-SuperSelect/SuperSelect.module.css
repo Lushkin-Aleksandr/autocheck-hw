@@ -24,14 +24,14 @@
 
     min-width: 165px;
     padding: 10px 25px 10px 10px;
-    border: 1px solid var(--select-border-color);
+    border: 1px solid var(--select-border-color, #323232);
     border-radius: 2px;
     font-size: 14px;
     -moz-appearance:none; /* Firefox */
     -webkit-appearance:none; /* Safari and Chrome */
     appearance:none;
     color: var(--color);
-    background-color: var(--background);
+    background-color: var(--background, #FFFFFF);
 }
 
 
